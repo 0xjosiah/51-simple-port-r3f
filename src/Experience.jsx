@@ -7,11 +7,13 @@ export default function Experience()
 
         <color args={[ '#695b5b' ]} attach='background' />
 
-        <PresentationControls />
-
         <Environment preset='city' />
-        
-        <ComputerModel />
-        
+
+        <PresentationControls
+            global
+        >
+            <ComputerModel />
+        </PresentationControls>
+
     </>
 }
