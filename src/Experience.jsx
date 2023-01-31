@@ -13,6 +13,7 @@ export default function Experience()
             global
             rotation={[ .13, .1, 0 ]}
             polar={[ -.4, .2 ]} // vertical rotation limits
+            azimuth={[ -1, .75 ]} // horizontal rotation limits
         >
             <ComputerModel />
         </PresentationControls>
