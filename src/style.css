@@ -14,3 +14,9 @@ canvas
 {
     touch-action: none;
 }
+
+.htmlScreen iframe
+{
+    height: 670px;
+    width: 1024px;
+}
