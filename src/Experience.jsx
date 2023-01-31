@@ -12,6 +12,7 @@ export default function Experience()
         <PresentationControls
             global
             rotation={[ .13, .1, 0 ]}
+            polar={[ -.4, .2 ]} // vertical rotation limits
         >
             <ComputerModel />
         </PresentationControls>
