@@ -1,4 +1,4 @@
-import { Environment, PresentationControls } from '@react-three/drei'
+import { ContactShadows, Environment, PresentationControls } from '@react-three/drei'
 import ComputerModel from './ComputerModel'
 
 export default function Experience()
@@ -19,6 +19,8 @@ export default function Experience()
         >
             <ComputerModel />
         </PresentationControls>
+
+        <ContactShadows position-y={ -1.2 }/>
 
     </>
 }
