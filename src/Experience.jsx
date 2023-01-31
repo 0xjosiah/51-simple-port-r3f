@@ -11,6 +11,7 @@ export default function Experience()
 
         <PresentationControls
             global
+            rotation={[ .13, .1, 0 ]}
         >
             <ComputerModel />
         </PresentationControls>
