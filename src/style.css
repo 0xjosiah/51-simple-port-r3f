@@ -19,4 +19,7 @@ canvas
 {
     height: 670px;
     width: 1024px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000000;
 }
