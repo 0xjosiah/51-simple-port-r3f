@@ -4,7 +4,7 @@ export default function ComputerModel(props) {
     const { scene } = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf')
 
     return (
-        <Float>
+        <Float rotationIntensity={ .4 }>
             <primitive object={ scene } position-y={ -1.2 } />
         </Float>
     )
