@@ -1,11 +1,11 @@
-import { Center, useGLTF } from "@react-three/drei"
+import { Center, Float, useGLTF } from "@react-three/drei"
 
 export default function ComputerModel(props) {
     const { scene } = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf')
 
     return (
-        <>
+        <Float>
             <primitive object={ scene } position-y={ -1.2 } />
-        </>
+        </Float>
     )
 }
