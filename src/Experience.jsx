@@ -1,4 +1,4 @@
-import { Environment, OrbitControls } from '@react-three/drei'
+import { Environment, PresentationControls } from '@react-three/drei'
 import ComputerModel from './ComputerModel'
 
 export default function Experience()
@@ -7,7 +7,7 @@ export default function Experience()
 
         <color args={[ '#695b5b' ]} attach='background' />
 
-        <OrbitControls makeDefault />
+        <PresentationControls />
 
         <Environment preset='city' />
         
