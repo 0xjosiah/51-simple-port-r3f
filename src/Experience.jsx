@@ -1,4 +1,4 @@
-import { OrbitControls } from '@react-three/drei'
+import { Environment, OrbitControls } from '@react-three/drei'
 import ComputerModel from './ComputerModel'
 
 export default function Experience()
@@ -9,6 +9,8 @@ export default function Experience()
 
         <OrbitControls makeDefault />
 
+        <Environment preset='city' />
+        
         <ComputerModel />
         
         <mesh>
