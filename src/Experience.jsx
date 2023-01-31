@@ -20,7 +20,12 @@ export default function Experience()
             <ComputerModel />
         </PresentationControls>
 
-        <ContactShadows position-y={ -1.2 }/>
+        <ContactShadows
+            position-y={ -1.4 }
+            scale={ 5 }
+            blur={ 2.4 }
+            opacity={ .6 }
+        />
 
     </>
 }
