@@ -13,10 +13,5 @@ export default function Experience()
         
         <ComputerModel />
         
-        <mesh>
-            <boxGeometry />
-            <meshNormalMaterial />
-        </mesh>
-
     </>
 }
