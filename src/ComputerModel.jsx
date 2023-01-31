@@ -4,8 +4,8 @@ export default function ComputerModel(props) {
     const { scene } = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf')
 
     return (
-        <Center>
-            <primitive object={ scene } />
-        </Center>
+        <>
+            <primitive object={ scene } position-y={ -1.2 } />
+        </>
     )
 }
